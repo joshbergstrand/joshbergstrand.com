@@ -1,0 +1,183 @@
+/* joshbergstrand.com */
+
+a {
+    transition: all .2s linear;
+}
+
+p.smallest {
+    font-size: .625em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* ABOUT */
+
+body.about {
+    background-color: #52BC89;
+}
+
+body.about p {
+    color: rgba(255, 255, 255, .8);
+}
+
+body.about li.current a,
+body.about li a:hover {
+    color: white;
+}
+
+.light {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+}
+
+.about-content p a {
+    color: rgba(255, 255, 255, .6);
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.about-content p a:hover,
+.about-content p a:focus {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.about-content {
+    margin-top: 12vh;
+}
+/* NAV */
+
+nav ul li {
+    transition: all .2s linear;
+}
+
+nav ul {
+    list-style: none;
+    position: relative;
+    left: -1.5em
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 4em;
+    height: 4em;
+    border-top: 4px solid white;
+}
+
+nav ul li a {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 4em;
+    height: 4em;
+    padding: 0.85em 1.5em 0.65em 1.5em;
+}
+
+nav ul li:hover {
+    background-color: #fafafa;
+    border-top: 4px solid #fafafa;
+}
+
+nav ul li.resume:hover {
+    background-color: transparent;
+    border-top: 4px solid white;
+}
+
+nav ul li.current:hover {
+    border-top: 4px solid #4DB282;
+}
+
+li.current {
+    border-top: 4px solid #52BC89;
+}
+
+nav ul li a.ghost-button {
+    border: 2px solid rgba(82, 188, 137, .6);
+    border-radius: 4px;
+    padding: 0.85em 1.5em 0.65em 1.5em;
+}
+
+nav ul li a.ghost-button:hover {
+    border: 2px solid rgba(82, 188, 137, 1);
+    background-color: rgba(82, 188, 137, 1);
+    color: white;
+}
+/* Reverse */
+
+nav ul.reverse li a {
+    color: rgba(255, 255, 255, .6);
+}
+
+nav ul.reverse li.current {
+    border-top: 4px solid white;
+}
+
+nav ul.reverse li a.ghost-button {
+    border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 4px;
+    padding: 0.85em 1.5em 0.65em 1.5em;
+}
+
+nav ul.reverse li a.ghost-button:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: white;
+    color: #52BC89;
+}
+
+nav ul.reverse li {
+    border-top: 4px solid #52BC89;
+}
+
+nav ul.reverse li:hover {
+    background-color: #4DB282;
+    border-top: 4px solid #4DB282;
+}
+
+nav ul.reverse li.current:hover {
+    border-top: 4px solid #fafafa;
+}
+
+nav ul.reverse li.resume:hover {
+    background-color: transparent;
+    border-top: 4px solid #52BC89;
+}
+/* FOOTER */
+
+footer {
+    padding: 2em 0 4em;
+}
+
+footer p {
+    color: #888;
+}
+/* WORK */
+
+.intro {
+    background-image: url(../img/wireframe-feedback.png);
+    height: 40vh;
+    position: relative;
+    background-size: cover;
+}
+
+.intro .columns {
+    position: absolute;
+    top: 55%;
+    transform: translate(0, -55%);
+}
+
+.project h3 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.project h4 {
+    font-size: 1.5em;
+}
+
+.project p {
+    color: #888;
+}
+
+.project {
+    border-bottom: 1px solid #eee;
+    margin: 2em 0;
+    padding: 2em 0;
+}
