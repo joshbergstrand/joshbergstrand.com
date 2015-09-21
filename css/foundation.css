@@ -77,7 +77,7 @@ body {
     background: #fff;
     color: #4C4B4B;
     cursor: auto;
-    font-family: "Fira Sans", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Futura", Helvetica, Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 1.5;
@@ -1449,7 +1449,7 @@ a img {
 /* Default paragraph styles */
 
 p {
-    font-family: inherit;
+    font-family: "Abril Text", Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.6;
@@ -1476,9 +1476,9 @@ h4,
 h5,
 h6 {
     color: #4C4B4B;
-    font-family: "Fira Sans", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Futura", Helvetica, Roboto, Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     line-height: 1.4;
     margin-bottom: 0.5rem;
     margin-top: 0.2rem;
@@ -1487,12 +1487,10 @@ h6 {
 
 h1 {
     font-size: 4.11rem;
-    font-weight: 900;
 }
 
 h2 {
     font-size: 3.247rem;
-    font-weight: 900;
 }
 
 h3 {
@@ -1703,7 +1701,7 @@ blockquote p {
 
 .label {
     display: inline-block;
-    font-family: "Fira Sans", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Futura", Helvetica, Roboto, Arial, sans-serif;
     font-weight: normal;
     line-height: 1;
     margin-bottom: auto;
@@ -2298,7 +2296,7 @@ button,
     border-style: solid;
     border-width: 0;
     cursor: pointer;
-    font-family: "Fira Sans", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Futura", Helvetica, Roboto, Arial, sans-serif;
     font-weight: normal;
     line-height: normal;
     margin: 0 0 1.25rem;
