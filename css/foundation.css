@@ -1254,12 +1254,12 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 /* Default Link Styles */
 
 a {
-  color: #52BC89;
+  color: #3F88C5;
   line-height: inherit;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #41a776;
+  color: #326C9D;
 }
 a img {
   border: none;
@@ -1478,54 +1478,19 @@ button, .button {
   padding: 1rem 2rem;
   font-size: .75rem;
   background-color: #52BC89;
-  border-color: #3c9c6e;
-  color: #FFFFFF;
+  border-color: #52BC89;
+  color: white;
   transition: background-color 300ms ease-out;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #3c9c6e;
+  background-color: #4DB282;
 }
 button:hover, button:focus, .button:hover, .button:focus {
-  color: #FFFFFF;
+  color: #eee;
 }
-button.secondary, .button.secondary {
-  background-color: #eeeeee;
-  border-color: #bebebe;
-  color: #333333;
-}
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #bebebe;
-}
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  color: #333333;
-}
-button.large, .button.large {
-  padding: 1.125rem 2.25rem 1.1875rem 2.25rem;
-  font-size: 1.25rem;
-}
-button.small, .button.small {
-  padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
-  font-size: 0.8125rem;
-}
-button.tiny, .button.tiny {
-  padding: 0.625rem 1.25rem 0.6875rem 1.25rem;
-  font-size: 0.6875rem;
-}
-button.expand, .button.expand {
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-}
-button.left-align, .button.left-align {
-  text-align: left;
-  text-indent: 0.75rem;
-}
-button.right-align, .button.right-align {
-  text-align: right;
-  padding-right: 0.75rem;
-}
+
 button.radius, .button.radius {
   border-radius: 3px;
 }
