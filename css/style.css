@@ -23,7 +23,7 @@ body.about p {
 }
 .about-content p a {
   color: rgba(255, 255, 255, .6);
-  padding-bottom:2px;
+  padding-bottom: 2px;
   border-bottom: 1px solid rgba(255, 255, 255, .4);
 }
 .about-content p a:hover, .about-content p a:focus {
@@ -56,28 +56,26 @@ nav ul li a {
 }
 
 /* Reverse */
+
 nav ul.reverse li.current a, nav ul.reverse li a:hover {
   color: white;
 }
 nav ul.reverse li a {
   color: rgba(255, 255, 255, .6);
 }
-
 nav ul li.resume a {
-  border: 1px solid rgba(255,255,255,.4);
+  border: 1px solid rgba(255, 255, 255, .4);
   border-radius: 3px;
   margin-left: 1em;
 }
-
 nav ul li.resume a:hover {
-  border: 1px solid rgba(255,255,255,1);
+  border: 1px solid rgba(255, 255, 255, 1);
   background-color: white;
-  color:#3F88C5;
+  color: #3F88C5;
 }
-
 @media only screen and (min-width: 64.0625em) {
   nav ul li a {
-    padding:1em 2em;
+    padding: 1em 2em;
   }
   nav ul li.resume a {
     margin-left: 2em;
@@ -85,6 +83,7 @@ nav ul li.resume a:hover {
 }
 
 /* Header */
+
 h1.logo {
   height: 4em;
   width: 4em;
@@ -94,7 +93,7 @@ h1.logo {
   text-align: center;
   font-size: 1em;
   float: left;
-  margin:1em 0;
+  margin: 1em 0;
 }
 .logo a {
   color: #3F88C5;
@@ -111,7 +110,6 @@ h1.logo {
   top: -1px;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -121,6 +119,15 @@ footer {
 footer p {
   font-family: "Futura", Helvetica, Roboto, Arial, sans-serif;
   color: #888;
+  margin-bottom:0;
+}
+@media only screen and (min-width: 40.0625em) {
+  footer p:first-child {
+    float: left;
+  }
+  footer p:last-child {
+    float: right;
+  }
 }
 
 /* WORK */
@@ -129,22 +136,24 @@ header.work {
   background-image: url(../img/usertesting-feedback.jpg);
   background-position: center center;
   background-size: cover;
-  height: 66.667vh;
+  height: 100vh;
   overflow: hidden;
   background-attachment: fixed;
 }
 .work-header-content-container {
   background-color: rgba(63, 136, 197, 0.8);
-  height: 66.667vh;
+  height: 100vh;
   position: relative;
+}
+@media only screen and (min-width: 40.0625em) {
+  header.work, .work-header-content-container {
+    height: 66.667vh;
+  }
 }
 .work-header-content {
   position: relative;
   top: 33.333%;
   transform: translate(0, -33.333%);
-}
-.work-header-content h1 {
-  color: white;
 }
 .project h4 {
   color: #3F88C5;
@@ -157,18 +166,25 @@ header.work {
   border-bottom: 1px solid #eee;
   padding: 2em 0;
 }
-
 @media only screen and (min-width: 64.0625em) {
   .project {
     padding: 4em 0;
   }
 }
 .screen {
-  height: 380px;
+  height: 280px;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .screen {
+    height: 380px;
+    background-size: contain;
+  }
+
 }
 .project-vgi .screen {
   background-image: url(../img/work/vanguard/preview-vgi.gif);
@@ -195,9 +211,31 @@ header.work {
 
 /* PROJECT */
 
-.project-header-content-container {
-  background-color: rgba(82, 188, 137, 0.8);
+/* CASE STUDY */
+
+header.case-study {
+  background-image: url(../img/work/wfa/wfa-stakeholder-meeting.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  background-attachment: fixed;
 }
-.device-container {
-  margin: 20px auto -100px;
+.case-study-header-content-container {
+  background-color: rgba(63, 136, 197, 0.8);
+  height: 100vh;
+  position: relative;
+}
+@media only screen and (min-width: 40.0625em) {
+  header.case-study, .case-study-header-content-container {
+    height: 66.667vh;
+  }
+}
+.case-study-header-content {
+  position: relative;
+  top: 33.333%;
+  transform: translate(0, -33.333%);
+}
+.text {
+font-family: "Abril Text", Georgia, Times, 'Times New Roman', serif;
 }
