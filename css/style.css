@@ -239,3 +239,11 @@ header.case-study {
 .text {
 font-family: "Abril Text", Georgia, Times, 'Times New Roman', serif;
 }
+
+.case-study-text h4.text {
+padding-top:1em;
+}
+
+.case-study-text, .case-study-image {
+  padding-bottom:2em;
+}
